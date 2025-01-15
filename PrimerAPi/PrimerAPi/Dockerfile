@@ -5,8 +5,10 @@ WORKDIR /app
 # Copiar los archivos del proyecto
 COPY . ./
 
-# Restaurar dependencias y publicar la aplicación
+# Restaurar dependencias
 RUN dotnet restore
+
+# Construir la aplicación
 RUN dotnet publish -c Release -o out
 
 # Etapa 2: Runtime
@@ -15,4 +17,4 @@ WORKDIR /app
 COPY --from=build /app/out ./
 
 # Comando de inicio
-ENTRYPOINT ["dotnet", "TuProyecto.dll"]
+ENTRYPOINT ["dotnet", "PrimerApi.dll"]
