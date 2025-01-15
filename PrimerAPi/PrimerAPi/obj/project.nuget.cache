@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7t8dWXqbrraAQMUUg2iHcYWP2He3jb04rgd0HYgbsWtk1ceH6XX6TH3qGBcz2RN3eEY/y+yWoPsHeq56VhUzAg==",
+  "dgSpecHash": "U0B9GW9rnqaLXT1yGjfGaUBGckQnlEh/jEWDky3y8mYOOPI2SFyNHjjX4mXh8gBWobB0kokSkE052yikEoMnsw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\BackEnd\\ProbandoJS\\PrimerAPi\\PrimerAPi\\PrimerAPi.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\BackEnd\\ProbandoJS\\RepoPruebaAPI\\PruebaAPI\\PrimerAPi\\PrimerAPi\\PrimerAPi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

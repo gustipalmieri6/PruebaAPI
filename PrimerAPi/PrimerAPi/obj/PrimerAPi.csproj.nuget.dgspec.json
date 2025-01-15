@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\BackEnd\\ProbandoJS\\PrimerAPi\\PrimerAPi\\PrimerAPi.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\BackEnd\\ProbandoJS\\RepoPruebaAPI\\PruebaAPI\\PrimerAPi\\PrimerAPi\\PrimerAPi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\BackEnd\\ProbandoJS\\PrimerAPi\\PrimerAPi\\PrimerAPi.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\BackEnd\\ProbandoJS\\RepoPruebaAPI\\PruebaAPI\\PrimerAPi\\PrimerAPi\\PrimerAPi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\BackEnd\\ProbandoJS\\PrimerAPi\\PrimerAPi\\PrimerAPi.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\BackEnd\\ProbandoJS\\RepoPruebaAPI\\PruebaAPI\\PrimerAPi\\PrimerAPi\\PrimerAPi.csproj",
         "projectName": "PrimerAPi",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\BackEnd\\ProbandoJS\\PrimerAPi\\PrimerAPi\\PrimerAPi.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\BackEnd\\ProbandoJS\\RepoPruebaAPI\\PruebaAPI\\PrimerAPi\\PrimerAPi\\PrimerAPi.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\BackEnd\\ProbandoJS\\PrimerAPi\\PrimerAPi\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\BackEnd\\ProbandoJS\\RepoPruebaAPI\\PruebaAPI\\PrimerAPi\\PrimerAPi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
