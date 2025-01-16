@@ -13,7 +13,7 @@ namespace PrimerAPi.Repositories
 
         public MongoDBRepository()
         {
-            Client = new MongoClient("mongodb://localhost:27017");
+            Client = new MongoClient("mongodb+srv://Gustavo@admin:Gustavo@cluster0.amf9k.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
             db = Client.GetDatabase("PruebaDB");
         }
 
