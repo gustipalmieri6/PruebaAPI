@@ -3,7 +3,7 @@ FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /app/PrimerAPi
 
 # Copiar los archivos del proyecto
-COPY . ./
+COPY . ./app/PrimerAPi
 
 # Restaurar dependencias
 RUN dotnet restore
