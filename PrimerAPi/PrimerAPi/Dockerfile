@@ -3,7 +3,7 @@ FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /app/PrimerAPi
 
 # Copiar los archivos del proyecto
-COPY . ./app/PrimerAPi
+COPY ./PrimerAPi ./
 
 # Restaurar dependencias
 RUN dotnet restore
@@ -13,8 +13,8 @@ RUN dotnet publish -c Release -o out
 
 # Etapa 2: Runtime
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS runtime
-WORKDIR /app/PrimerAPi
-COPY --from=build /app/out ./
+WORKDIR /app
+COPY --from=build /app/PrimerAPi/out ./
 
 # Comando de inicio
-ENTRYPOINT ["dotnet", "PrimerApi.dll"]
+ENTRYPOINT ["dotnet", "PrimerAPi.dll"]
