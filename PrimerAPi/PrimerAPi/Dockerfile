@@ -13,7 +13,7 @@ RUN dotnet publish -c Release -o out
 
 # Etapa 2: Runtime
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS runtime
-WORKDIR /app
+WORKDIR /app/PrimerAPi
 COPY --from=build /app/out ./
 
 # Comando de inicio
